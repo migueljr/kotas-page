@@ -7,7 +7,6 @@ document.addEventListener('scroll', function(e) {
 });
 
 window.addEventListener('resize', function(e) {
-    console.log('dsfds')
     if(window.scrollY>=55){
         document.querySelector('.bill-box-fixed').style = 'margin-top:-55px; position:fixed; width: '+document.querySelector('.width-fixed').offsetWidth+'px !important;';
     }else{
